@@ -1,3 +1,9 @@
+# Generated files by hugo
+/public/
+/resources/
+/assets/jsconfig.json
+hugo_stats.json
+
 # Executable may be added to repository
 hugo.exe
 hugo.darwin
