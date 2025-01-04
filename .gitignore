@@ -1,8 +1,8 @@
 # Generated files by hugo
-./public
-./resources/
-./assets/jsconfig.json
-.hugo_stats.json
+personal-site/public/
+personal-site/resources/
+personal-site/assets/jsconfig.json
+personal-site/hugo_stats.json
 
 # Executable may be added to repository
 .hugo.exe
