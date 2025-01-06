@@ -1,6 +1,7 @@
 # Basic config
 baseURL = 'https://followingell.github.io/'
 theme = "hugo-bearcub"
+copyright = "© 2025 Elliot Partridge"
 languageCode = 'en-gb'
 
 # Generate a nice robots.txt for SEO
@@ -17,6 +18,17 @@ enableRobotsTXT = true
     # to people with poor eyesight. For more information about color contrast
     # and accessibility, see https://web.dev/color-and-contrast-accessibility/
     noClasses = false
+
+# Multilingual mode config. More for information about how to setup translation,
+# see https://gohugo.io/content-management/multilingual/
+[languages]
+  [languages.en]
+    title = "🪴 Elliot's Digital Garden"
+    languageName = "en-gb 🇬🇧"
+    LanguageCode = "en-gb"
+    contentDir = "content"
+    [languages.en.params]
+      madeWith = "Made with 💟 in [Valencia](https://maps.app.goo.gl/SLRTzLvkpZtLaMSW8), Spain 🥘"
 
 [params]
   # The description of your website
